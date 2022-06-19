@@ -1,0 +1,11 @@
+name: stockscreener
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - pip
+  - pip:
+      - yfinance
+      - matplotlib
+      - seaborn
+      - fmpsdk
